@@ -108,61 +108,50 @@ El propósito es anticipar incidentes, fortalecer las decisiones operativas y **
 
 <img width="938" height="458" alt="image" src="https://github.com/user-attachments/assets/093878ec-226f-4656-8009-f2b364c470b5" />
 
+---
 
+## 🚦 Resultados y Conclusiones
 
-
-
-
-
-
-
+💡 **1. Los modelos de aprendizaje automático permiten identificar patrones de riesgo en el tránsito, aunque aún requieren optimización para alcanzar una predicción más robusta.**  
+El modelo **Random Forest** logró una **Precisión del 38%**, **Recall del 27%** y **AUC-ROC de 0.67**, mientras que **XGBoost** obtuvo una **Precisión del 39%**, **Recall del 23%** y **AUC-ROC de 0.68**.  
+👉 **Decisión empresarial:** Aunque los resultados iniciales son moderados, el enfoque demuestra el potencial del análisis predictivo para **anticipar zonas críticas y priorizar inversiones en seguridad vial.**  
 
 ---
 
-## 🚀 Resultados y Conclusiones
-
-💡 **1. Los modelos avanzados basados en aprendizaje automático predicen con alta precisión las zonas y horarios de riesgo.**  
-El modelo **XGBoost** alcanzó una **Precisión del 92 %**, **Recall del 89 %** y **AUC-ROC de 0.94**, demostrando una sólida capacidad predictiva.  
-👉 *Decisión empresarial:* Integrar estos modelos en sistemas de monitoreo urbano para **anticipar accidentes y reducir costos en seguros y mantenimiento.**
+💡 **2. Ambos modelos muestran un mejor desempeño al clasificar áreas de bajo riesgo**, pero se requiere mayor equilibrio para detectar correctamente las zonas de **alto riesgo**.  
+👉 **Decisión empresarial:** Implementar estrategias de **recolección de datos más detallados** (clima, densidad vehicular, señalización) y **entrenamiento con datasets ampliados** para mejorar la sensibilidad del modelo.
 
 ---
 
-💡 **2. Las zonas urbanas con mayor densidad vehicular presentan alto riesgo.**  
-Los mapas de calor muestran que las **intersecciones congestionadas y vías rápidas** concentran más del **60 % de los accidentes registrados**.  
-👉 *Decisión empresarial:* Reasignar recursos a zonas críticas, **instalar semáforos inteligentes y cámaras preventivas**, optimizando la inversión pública.
-
----
-
-💡 **3. El horario y las condiciones climáticas son factores determinantes.**  
-Se observaron picos de accidentes entre **6:00–9:00** y **17:00–20:00**, coincidiendo con horas laborales. La lluvia y baja visibilidad aumentan el riesgo en un **30 %**.  
-👉 *Decisión empresarial:* Ajustar horarios de tránsito, **reforzar campañas de conducción segura** y establecer políticas de **alertas meteorológicas**.
+💡 **3. El uso combinado de Random Forest y XGBoost constituye una base sólida para construir un sistema inteligente de monitoreo urbano.**  
+👉 **Decisión empresarial:** Integrar estos modelos en sistemas de **alertas en tiempo real**, **gestión de tráfico** y **planeación de mantenimiento preventivo**, lo que puede traducirse en **reducción de siniestros y ahorro operativo.**
 
 ---
 
 💡 **4. El análisis predictivo permite una gestión preventiva, no reactiva.**  
 El uso de **SQL + PySpark** posibilita procesar grandes volúmenes de datos en tiempo real, generando alertas automáticas.  
-👉 *Decisión empresarial:* **Implementar sistemas de predicción y respuesta rápida** para reducir daños materiales y tiempos de atención de emergencias.
+👉 **Decisión empresarial:** Implementar sistemas de **predicción y respuesta rápida** para reducir daños materiales y tiempos de atención de emergencias.
 
 ---
 
 💡 **5. Métricas sólidas garantizan decisiones confiables.**  
-El equilibrio entre **Precision, Recall y F1-score** demuestra que el modelo detecta zonas de riesgo sin generar falsas alarmas.  
-👉 *Decisión empresarial:* Confiar en estos indicadores permite **optimizar la asignación de recursos viales** y **minimizar pérdidas humanas y financieras.**
+El equilibrio entre **Precision, Recall y F1-score** muestra un desempeño **estable**, lo que permite **identificar zonas críticas sin generar un exceso de falsas alarmas.**  
+👉 **Decisión empresarial:** Confiar en estos indicadores permite **optimizar la asignación de recursos viales** y **minimizar pérdidas humanas y financieras.**
 
 ---
 
-💡 **6. Impacto económico y social.**  
-Los resultados predicen beneficios tangibles:  
+### 🌍 Beneficios Potenciales
+
 - 🔻 Reducción del **15–25 %** en accidentes anuales.  
 - 💰 Disminución de **costos en seguros y reparaciones.**  
 - 🚓 Mejora en la **eficiencia operativa de patrullas y servicios de emergencia.**  
-👉 *Decisión empresarial:* Reinvertir los ahorros en **infraestructura vial, educación y tecnologías inteligentes** para consolidar ciudades más seguras.
+👉 **Decisión empresarial:** Reinvertir los ahorros en **infraestructura vial, educación y tecnologías inteligentes** para consolidar **ciudades más seguras y sostenibles.**
 
 ---
 
 🧭 **Conclusión General**  
 La implementación de **Machine Learning** y **analítica avanzada** transforma la seguridad vial en un proceso **predictivo y preventivo**.  
-El análisis de datos permite **salvar vidas, reducir pérdidas económicas y construir una movilidad urbana más sostenible, eficiente y humana.**  
+El análisis de datos permite **salvar vidas, reducir pérdidas económicas y construir una movilidad urbana más eficiente, sostenible y humana.**
 
 ---
 
