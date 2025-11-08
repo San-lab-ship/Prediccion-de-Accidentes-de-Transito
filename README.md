@@ -30,7 +30,9 @@ El propósito es anticipar incidentes, fortalecer las decisiones operativas y **
 ✅ **Random Forest**  
 ✅ **XGBoost**  
 ✅ **Scikit-learn**  
-✅ **Matplotlib**, **Seaborn**, **Plotly**  
+✅ **Matplotlib**, 
+✅ **Seaborn**, 
+✅ **Plotly**  
 
 ---
 
